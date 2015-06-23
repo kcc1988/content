@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: ZWaveTutorial
 permalink: /en-US/win10/samples/ZWaveTutorial.htm
@@ -46,7 +46,9 @@ This document describes the setup of the AllJoyn Z-Wave demo that is provided at
 
 The setup should look like in the picture below  
   
-  
+ 
+![Rpi_ZStick]({{site.baseurl}}/images/AllJoyn/ZStick_RPi.png)
+
 ## Controlling the Z-Wave switch via AllJoyn  
 
 Let’s turn the Z-Wave power switch on! We will use the AllJoyn Explorer (AJX) to navigate the devices, objects and interfaces.    
@@ -56,19 +58,28 @@ The AJX should find the following three devices:
 • HomeID_xxx…  – Aeon Labs Smart Energy Switch: This is the Z-Wave power switch that is paired with the Z-Wave dongle  
 • HomeID_xxx…  – Aeon Labs Z-Stick S2: This is the Z-Wave USB dongle  Select the Aeon Labs Smart Energy Switch.  
 
-3  
+![AJx_ZWave1]({{site.baseurl}}/images/AllJoyn/Ajx_shot1.png)
   
   
 Select the Switch object.  
+
+![AJx_ZWave1]({{site.baseurl}}/images/AllJoyn/Ajx_shot2.png)
+
   The interface view of the Switch object lists several interfaces. Most of them are default AllJoyn interfaces such as the Introspectable interface. Select the com.microsft.ZWaveAdapterHome… interface.  
 
 
-4  
+![AJx_ZWave1]({{site.baseurl}}/images/AllJoyn/Ajx_shot3.png)
   
   
 Select the value property.  
+
+![AJx_ZWave1]({{site.baseurl}}/images/AllJoyn/Ajx_shot4.png)
+
   Depending on the current state of the switch (on or off) the Current value field will show true for ON and false for OFF. In the New Value drop down list select the new setting. After the new setting is selected press Set.  
-5  
+
+![AJx_ZWave1]({{site.baseurl}}/images/AllJoyn/Ajx_shot5.png)
   
   The view will report the change of the value in the Current value field as well as the return status code of the operation:
+
+![AJx_ZWave1]({{site.baseurl}}/images/AllJoyn/Ajx_shot6.png)
   
