@@ -63,23 +63,23 @@ The AJX should find the following three devices:
   
 Select the Switch object.  
 
-![AJx_ZWave1]({{site.baseurl}}/images/AllJoyn/Ajx_shot2.png)
+![AJx_ZWave2]({{site.baseurl}}/images/AllJoyn/Ajx_shot2.png)
 
   The interface view of the Switch object lists several interfaces. Most of them are default AllJoyn interfaces such as the Introspectable interface. Select the com.microsft.ZWaveAdapterHome… interface.  
 
 
-![AJx_ZWave1]({{site.baseurl}}/images/AllJoyn/Ajx_shot3.png)
+![AJx_ZWave3]({{site.baseurl}}/images/AllJoyn/Ajx_shot3.png)
   
   
 Select the value property.  
 
-![AJx_ZWave1]({{site.baseurl}}/images/AllJoyn/Ajx_shot4.png)
+![AJx_ZWave4]({{site.baseurl}}/images/AllJoyn/Ajx_shot4.png)
 
   Depending on the current state of the switch (on or off) the Current value field will show true for ON and false for OFF. In the New Value drop down list select the new setting. After the new setting is selected press Set.  
 
-![AJx_ZWave1]({{site.baseurl}}/images/AllJoyn/Ajx_shot5.png)
+![AJx_ZWave5]({{site.baseurl}}/images/AllJoyn/Ajx_shot5.png)
   
   The view will report the change of the value in the Current value field as well as the return status code of the operation:
 
-![AJx_ZWave1]({{site.baseurl}}/images/AllJoyn/Ajx_shot6.png)
+![AJx_ZWave6]({{site.baseurl}}/images/AllJoyn/Ajx_shot6.png)
   
